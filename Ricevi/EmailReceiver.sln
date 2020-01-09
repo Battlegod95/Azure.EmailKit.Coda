@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailReceiver", "EmailReceiver.csproj", "{EC496CC2-3BF4-4FD6-A689-90A0639CA5DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailSender", "..\Invio\EmailSender.csproj", "{E516AA7B-1C64-46EF-9B66-41F5F64C2E0B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mail.Data", "..\Mail.Data\Mail.Data.csproj", "{66297B84-1A7E-4BFE-AC0A-23B61C2769BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC496CC2-3BF4-4FD6-A689-90A0639CA5DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC496CC2-3BF4-4FD6-A689-90A0639CA5DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC496CC2-3BF4-4FD6-A689-90A0639CA5DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC496CC2-3BF4-4FD6-A689-90A0639CA5DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E516AA7B-1C64-46EF-9B66-41F5F64C2E0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E516AA7B-1C64-46EF-9B66-41F5F64C2E0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E516AA7B-1C64-46EF-9B66-41F5F64C2E0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E516AA7B-1C64-46EF-9B66-41F5F64C2E0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66297B84-1A7E-4BFE-AC0A-23B61C2769BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66297B84-1A7E-4BFE-AC0A-23B61C2769BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66297B84-1A7E-4BFE-AC0A-23B61C2769BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66297B84-1A7E-4BFE-AC0A-23B61C2769BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E8B221F-A613-477C-87E8-23264CF302A2}
+	EndGlobalSection
+EndGlobal

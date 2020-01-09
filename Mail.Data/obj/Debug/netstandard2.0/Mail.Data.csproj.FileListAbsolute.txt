@@ -1,0 +1,8 @@
+C:\Users\PC\Desktop\aspnet core 2anno\Azure prova coda\Mail.Data\bin\Debug\netstandard2.0\Mail.Data.deps.json
+C:\Users\PC\Desktop\aspnet core 2anno\Azure prova coda\Mail.Data\bin\Debug\netstandard2.0\Mail.Data.dll
+C:\Users\PC\Desktop\aspnet core 2anno\Azure prova coda\Mail.Data\bin\Debug\netstandard2.0\Mail.Data.pdb
+C:\Users\PC\Desktop\aspnet core 2anno\Azure prova coda\Mail.Data\obj\Debug\netstandard2.0\Mail.Data.csprojAssemblyReference.cache
+C:\Users\PC\Desktop\aspnet core 2anno\Azure prova coda\Mail.Data\obj\Debug\netstandard2.0\Mail.Data.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\aspnet core 2anno\Azure prova coda\Mail.Data\obj\Debug\netstandard2.0\Mail.Data.AssemblyInfo.cs
+C:\Users\PC\Desktop\aspnet core 2anno\Azure prova coda\Mail.Data\obj\Debug\netstandard2.0\Mail.Data.dll
+C:\Users\PC\Desktop\aspnet core 2anno\Azure prova coda\Mail.Data\obj\Debug\netstandard2.0\Mail.Data.pdb
