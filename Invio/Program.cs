@@ -10,7 +10,7 @@ namespace EmailSender
     {
         static void Main(string[] args)
         {
-            var connectionString = "DefaultEndpointsProtocol=https;AccountName=itsmonti;AccountKey=jlG4ynn4gEaH32F3dgPpA6QTxNEc0dTj5k/3vyR6fx8Z2Zy24m0ORvFMVehqMvoCYPArjaFaSiNEVlgi+LjTCA==;EndpointSuffix=core.windows.net";
+            var connectionString = "";
 
             var storageAccount = CloudStorageAccount.Parse(connectionString);
             var queueClient = storageAccount.CreateCloudQueueClient();
