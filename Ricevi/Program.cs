@@ -11,7 +11,7 @@ namespace EmailReceiver
     {
         static void Main(string[] args)
         {
-            var connectionString = "DefaultEndpointsProtocol=https;AccountName=itsmonti;AccountKey=jlG4ynn4gEaH32F3dgPpA6QTxNEc0dTj5k/3vyR6fx8Z2Zy24m0ORvFMVehqMvoCYPArjaFaSiNEVlgi+LjTCA==;EndpointSuffix=core.windows.net";
+            var connectionString = "";
 
             var storageAccount = CloudStorageAccount.Parse(connectionString);
             var queueClient = storageAccount.CreateCloudQueueClient();
@@ -26,7 +26,7 @@ namespace EmailReceiver
                 if (queueMessage != null)
                 {
                     Email message = JsonConvert.DeserializeObject<Email>(queueMessage.AsString);
-                    SendMail.Send(message, "emiliano.monti@tecnicosuperiorekennedy.it","Emiliano Monti", "Donbosco95");
+                    SendMail.Send(message, "","", "");
                     Console.WriteLine(queueMessage.AsString);
                     queue.DeleteMessage(queueMessage);
                     second = 1000;
